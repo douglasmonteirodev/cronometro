@@ -39,7 +39,7 @@ const App = () => {
           (sec < 10 ? '0' + sec : sec);
 
         setNumero(format);
-      }, 1000);
+      }, 1);
 
       setBtn('PARAR');
     }
